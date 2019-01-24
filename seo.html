@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Een webpagina gemaakt met de nodige HTML5 elementen.">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/seo.css">
+    <link rel="shortcut icon" href="images/Semantic.ico" type="image/x-icon">
+    <title>Semantische website</title>
+
+</head>
+<!-- Body -->
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="/notsemantic.html"><img src="images/Semantic.png" alt="Semantic Logo"></a>
+        <h1>Semantic</h1>
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="/semantic.html">Home</a></li>
+                <li><a href="/aria-roles-zonder.html">Aria-roles</a></li>
+                <li><a href="/seo.html">SEO</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <div class="email">
+            <p>Dear John,
+            </p>
+            <p>I am a Belgian computer science student. I study “New Media & Communication Technology” at Howest in
+                Kortrijk, Belgium.
+            </p>
+            <p>It’s my last year and for my thesis, I have to do research on semantic html 5 tags.
+                I have done a lot of research and your name keeps popping up on Twitter and the Google forums.
+                Throughout the years, the answers were sometimes very different.
+            </p>
+            <p>I was hoping you could provide me your insights on the matter?
+            </p>
+            <p>My main question is: “Is it useful (anno 2018) to shape the web with various semantic tags?”
+                This is a very broad question, so I divided the question into a series of sub-questions.
+                My most important questions for you are “How important is the general use of HTML5 tags?” and “Is their
+                any impact on SEO?”
+            </p>
+            <p>It would also be interesting to hear your opinion and expertise on the other questions: <br>
+                - Is this still relevant in web 3.0? <br>
+                - Is their any impact on screen readers?
+            </p>
+            <p>Thanks for considering my request.
+            </p>
+            <p>Kind regards, <br>
+                Gaëtan Van Den Berge
+            </p>
+            <div class="Profilepic">
+                <img src="/images/Gaetan.jpeg" alt="Profile picture John Mueller">
+                <p>Gaëtan Van Den berge</p>
+                <p>Student New Media & Communication Technology</p>
+            </div>
+        </div>
+        <div>
+            <div class="Dot"></div>
+        </div>
+        <div class="email email_last">
+            <p>Hi! Happy to help :)
+            </p>
+            <p>I think this topic is often conflated with other items, which makes it hard. In particular, <strong>at Google we
+                don't do anything special with the newer HTML5 tags.You can make up tags of your own, and they'll be
+                +/-
+                valid HTML, which is somewhat how we treat these "new" tags </strong> (they've been around for a long time, but
+                anyway). Usually the process for changes in our systems in search is roughly: "we recognize that the
+                web is
+                doing something in a particular way, which is also beneficial for us" -> "we'll analyze advantages from
+                using them" -> if there are significant advantages, we start using them. We wouldn't just change our
+                systems based on how something could be used in theory, there has to be a real advantage to the end
+                result
+                (search quality) in order for us to add any complexity to our algorithms. That's still not
+                the
+                case with HTML5 -- we can recognize content on a page the same regardless of HTML5 usage or not.
+            </p>
+            <p>The things this gets conflated with are creating a semantic structure on your page, or using valid HTML.
+                Both of these do help us to better understand the content on a page, but it's not a matter of ranking
+                higher just because they do this. For example, I can't read Polish, but I can read the letters on a web
+                page in Polish, I can pull out the words, so I could point to that page if someone were to ask me for
+                those
+                words. However, if I could also read Polish, or if that page were in English, then <strong>I could better
+                understand for which queries I might point at that page.</strong> Similarly, we can process all forms of broken
+                HTML
+                (the web is broken all over), and we can rank those pages in various ways, but it's easier if we have a
+                clearer <strong>context</strong>. This is even more relevant nowadays with structured data on pages, where we need to
+                understand which concepts on a page the structured data applies to.
+            </p>
+            <p>Anyway, I think that's why you see such a variety of answers on this topic. <strong>Google doesn't use HTML5, we
+                don't require semantic or valid HTML, its existence isn't a ranking factor, but it can make it easier
+                to
+                recognize the content, and show it for the relevant search results. </strong> (The trick is that "relevant search
+                results" might be fewer than otherwise, but they're the ones that are useful for your pages. If you get
+                1000 people coming to your page and they laugh at a joke you have on there then leave, is it as
+                valuable as
+                getting just 10 people, if those 10 also buy something from there?
+            </p>
+            <div class="Profilepic">
+                <img src="/images/John.png" alt="Profile picture John Mueller">
+                <p>John Mueller</p>
+                <p>Webmaster Trends Analyst at Google</p>
+            </div>
+        </div>
+        <div class="google-trend">
+            <div class="box">
+                <img src="/images/line-chart.png" alt="Trend graph">
+                <p>The web is doing something.</p>
+            </div>
+
+            <img src="/images/keyboard-right-arrow-button.png" alt="Arrow" class="arrow">
+            <div class="box">
+                <img src="/images/analyze.png" alt="Trend graph">
+                <p>Analyze using advantages.</p>
+            </div>
+
+            <img src="/images/keyboard-right-arrow-button.png" alt="Arrow" class="arrow">
+            <div class="box">
+                <img src="/images/approve-invoice.png" alt="Trend graph">
+                <p>Significant advantages?</p>
+            </div>
+
+            <p class="conclusion">That's still not the case with HTML5</p>
+        </div>
+    </main>
+</body>
+
+</html>

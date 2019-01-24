@@ -2,12 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
-
 body{
-    /* max-width: 60em;
-    margin: 0 auto;
-    display: block; */
+    max-width: 100vw;
+    overflow-x: hidden;
 
     margin-left: auto;
 	margin-right: auto;
@@ -67,6 +64,11 @@ nav ul li a{
 	position: relative;
 	right: 50%;
 	width: 100vw;
+}
+
+main li{
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
 article{
@@ -188,4 +190,20 @@ footer{
 
 #contactForm h2{
     margin-bottom: 40px;
+}
+
+.semantic_img{
+    width: 219px;
+    height: 258px;
+    float: right;
+}
+
+aside{
+    float: right;
+    width: 189px;
+    height: 250px;
+    background-color: rgb(247, 245, 245);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
 }
